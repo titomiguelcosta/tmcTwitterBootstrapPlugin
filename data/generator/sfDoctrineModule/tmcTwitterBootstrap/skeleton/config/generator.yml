@@ -1,0 +1,15 @@
+generator:
+  class: tmcTwitterBootstrapDoctrineGenerator
+  param:
+##CONFIG##
+
+    config:
+      actions: ~
+      fields:  ~
+      list:    ~
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~
+      show:    ~
+      revert:  ~

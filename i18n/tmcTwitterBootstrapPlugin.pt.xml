@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header />
+    <body>
+      <!-- Geral -->
+      <trans-unit id="1">
+        <source>Required.</source>
+        <target>Campo obrigatório.</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>Invalid.</source>
+        <target>Campo inválido.</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>"%value%" is not an integer.</source>
+        <target>Campo inválido. "%value%" não é um número inteiro.</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>is empty</source>
+        <target>é nulo?</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>from</source>
+        <target>de</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>to</source>
+        <target>até</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>Created at</source>
+        <target>Data de criação</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>Updated at</source>
+        <target>Data da última actulização</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>developed by</source>
+        <target>desenvolvido por</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>Administration area</source>
+        <target>Área de administração</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>Logout</source>
+        <target>Terminar sessão</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>No results</source>
+        <target>Nenhum resultado</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>Search</source>
+        <target>Pesquisar</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>Reset filter</source>
+        <target>Cancelar filtro</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>Choose an action</source>
+        <target>Escolha uma acção</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>(page %%page%%/%%nb_pages%%)</source>
+        <target>(página %%page%%/%%nb_pages%%)</target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>[0] No results|[1] 1 result|(1,+Inf] %1% results</source>
+        <target>[0] Nenhum resultado|[1] 1 resultado|(1,+Inf] %1% resultados</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>A problem occurs when deleting the selected items as some items do not exist anymore.</source>
+        <target>Um problema ocorreu ao tentar apagar objectos que são inexistentes.</target>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>Checked</source>
+        <target>Activo</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>Unchecked</source>
+        <target>Inactivo</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>Are you sure?</source>
+        <target>Tem a certeza de que pretende apagar o objecto?</target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>Max per page</source>
+        <target>Máximo por página</target>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>Back to list</source>
+        <target>Listar</target>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>Invalid position.</source>
+        <target>Posição inválida.</target>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>Object moved to position num.%d.</source>
+        <target>Objecto movido para a posição n.%d.</target>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>Object promoted.</source>
+        <target>Objecto promovido uma posição.</target>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>Object demoted.</source>
+        <target>Objecto despromovido uma posição.</target>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>Specify the new position</source>
+        <target>Indique a nova posição</target>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>Show</source>
+        <target>Mostrar</target>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>Filter</source>
+        <target>Filtrar</target>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>Filters</source>
+        <target>Filtros</target>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>Reset filter</source>
+        <target>Eliminar filtros</target>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>Success</source>
+        <target>Sucesso</target>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>Warning</source>
+        <target>Alerta</target>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>Error</source>
+        <target>Erro</target>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>[0] no result|[1] 1 result|(1,+Inf] %1% results</source>
+        <target>[0] nenhum resultado|[1] 1 resultado|(1,+Inf] %1% resultados</target>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>(page %%page%%/%%nb_pages%%)</source>
+        <target>(página %%page%%/%%nb_pages%%)</target>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>Choose an action</source>
+        <target>Escolha uma ação</target>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>Go</source>
+        <target>Aplicar</target>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>Sidebar text</source>
+        <target>Text lateral</target>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>Version history</source>
+        <target>Histórico de versões</target>
+      </trans-unit>
+      <trans-unit id="42">
+        <source>No versions found</source>
+        <target>Nenhuma versão encontrada</target>
+      </trans-unit>
+      <trans-unit id="43">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="44">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="45">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="46">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="47">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="48">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="49">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="50">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="51">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="52">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="53">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="54">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="55">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="56">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="57">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="58">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="59">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="60">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="61">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="62">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="63">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="64">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="65">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="66">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="67">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="68">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="69">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="70">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="71">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="72">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="73">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="74">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="75">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="76">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="77">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="78">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="79">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="80">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="81">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="82">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="83">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="84">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="85">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="86">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="87">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="88">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="89">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="90">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="91">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="92">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="93">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="94">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="95">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="96">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="97">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="98">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="99">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="100">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="101">
+        <source>New</source>
+        <target>Novo</target>
+      </trans-unit>
+      <trans-unit id="102">
+        <source>Edit</source>
+        <target>Editar</target>
+      </trans-unit>
+      <trans-unit id="103">
+        <source>Delete</source>
+        <target>Apagar</target>
+      </trans-unit>
+      <trans-unit id="104">
+        <source>List</source>
+        <target>Listar</target>
+      </trans-unit>
+      <trans-unit id="105">
+        <source>Save</source>
+        <target>Gravar</target>
+      </trans-unit>
+      <trans-unit id="106">
+        <source>Save and add</source>
+        <target>Gravar e adicionar</target>
+      </trans-unit>
+      <trans-unit id="107">
+        <source>Cancel</source>
+        <target>Cancelar</target>
+      </trans-unit>
+
+      <!-- Filters -->
+      <trans-unit id="108">
+        <source>Reset</source>
+        <target>Eliminar</target>
+      </trans-unit>
+      <trans-unit id="109">
+        <source>Filter</source>
+        <target>Filtrar</target>
+      </trans-unit>
+
+      <!-- List -->
+      <trans-unit id="110">
+        <source>No result</source>
+        <target>Nenhum resultado.</target>
+      </trans-unit>
+      <trans-unit id="111">
+        <source>Actions</source>
+        <target>Acções</target>
+      </trans-unit>
+      <trans-unit id="112">
+        <source>(page %%page%%/%%nb_pages%%)</source>
+        <target>(página %%page%%/%%nb_pages%%)</target>
+      </trans-unit>
+      <trans-unit id="113">
+        <source>asc</source>
+        <target>asc</target>
+      </trans-unit>
+      <trans-unit id="114">
+        <source>desc</source>
+        <target>desc</target>
+      </trans-unit>
+
+      <!-- Pagination -->
+      <trans-unit id="115">
+        <source>First page</source>
+        <target>Primeira página</target>
+      </trans-unit>
+      <trans-unit id="116">
+        <source>Previous page</source>
+        <target>Página anterior</target>
+      </trans-unit>
+      <trans-unit id="117">
+        <source>Next page</source>
+        <target>Próxima página</target>
+      </trans-unit>
+      <trans-unit id="118">
+        <source>Last page</source>
+        <target>Última página</target>
+      </trans-unit>
+
+      <!-- Form -->
+      <trans-unit id="119">
+        <source>The item was created successfully.</source>
+        <target>O objecto foi criado com sucesso.</target>
+      </trans-unit>
+      <trans-unit id="120">
+        <source>The item was updated successfully.</source>
+        <target>O objecto foi actualizado com sucesso.</target>
+      </trans-unit>
+      <trans-unit id="121">
+        <source>The item was created successfully. You can add another one below.</source>
+        <target>O objecto foi criado com sucesso. Poderá adicionar outro de seguida.</target>
+      </trans-unit>
+      <trans-unit id="122">
+        <source>The item was updated successfully. You can add another one below.</source>
+        <target>O objecto foi actualizado com sucesso. Poderá adicionar outro de seguida.</target>
+      </trans-unit>
+      <trans-unit id="123">
+        <source>The item has not been saved due to some errors.</source>
+        <target>O objecto não foi guardado devido a erros.</target>
+      </trans-unit>
+      <trans-unit id="124">
+        <source>The item was deleted successfully.</source>
+        <target>O objecto foi apagado com sucesso.</target>
+      </trans-unit>
+      <trans-unit id="125">
+        <source>You must at least select one item.</source>
+        <target>Deverá seleccionar pelo menos um objecto.</target>
+      </trans-unit>
+      <trans-unit id="126">
+        <source>You must select an action to execute on the selected items.</source>
+        <target>Deverá selecionar uma acção para executar nos objectos seleccionados.</target>
+      </trans-unit>
+      <trans-unit id="127">
+        <source>A problem occurs when deleting the selected items as some items do not exist anymore.</source>
+        <target>Um problema ocorreu ao apagar os objectos seleccionados devido à sua inexistência.</target>
+      </trans-unit>
+      <trans-unit id="128">
+        <source>The selected items have been deleted successfully.</source>
+        <target>Os objectos seleccionados foram apagados com sucesso.</target>
+      </trans-unit>
+      <trans-unit id="129">
+        <source>A problem occurs when deleting the selected items.</source>
+        <target>Ocorreu um erro ao apagar os objectos seleccionados.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

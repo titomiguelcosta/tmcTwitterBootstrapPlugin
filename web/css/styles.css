@@ -1,0 +1,56 @@
+body {
+    padding-top: 60px; /* for the topbar! */
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+.margin-right {
+    margin-right: 10px;
+}
+.pagination {
+    margin: 0 !important;
+    height: auto !important;
+}
+#footer {
+    border-top: 1px solid #eee;
+    padding-top: 5px;
+    text-align: right;
+}
+fieldset{padding:20px 0 5px; background-color:#f5f5f5;border:1px solid #eee;border:1px solid rgba(0, 0, 0, 0.05);-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);}
+fieldset h2 {
+    color: #333;
+}
+fieldset .sf_admin_form_row > label:first-child {
+    font-weight: bold;
+}
+.form-horizontal .control-label {
+    padding-top: 2px;
+}
+.control-group h2 i {
+    margin: 7px 0 0;
+}
+.error_list {
+    list-style: none;
+    margin: 0;
+}
+.alert {
+    margin: 10px 0;
+}
+caption {
+    text-align: left;
+    font-size: 18px;
+    margin: 8px 0 4px;
+}
+.table-show th {
+    width: 30%;
+}
+label.checkbox.inline {
+    margin-top: -4px;
+}
+label.checkbox.inline input[type=radio] {
+    margin-top: -4px;
+}
+.tmc_choice_add {
+    cursor: pointer;
+    cursor: hand;
+}

@@ -1,0 +1,56 @@
+#all:
+#  tmcTwitterBootstrapPlugin:
+#    profile_route: @homepage?username=
+#    dashboard_name: Administration
+#    header:
+#      menu:
+#        aff networks:
+#          module_name: site
+#          credentials: []
+#          route: site
+#        lists:
+#          module_name: list_definition
+#          route: list_definition
+#        emails:
+#          module_name: email_definition
+#          route: email_definition
+#        reports:
+#          module_name: report
+#          dropdown:
+#            hammer:
+#              route: report_hammer
+#            daily conversions:
+#              route: report_daily_conversions
+#        setup:
+#          credentials: [admin]
+#          dropdown:
+#            global vars:
+#              credentials: [admin]
+#              route: global_configuration
+#              divider: yes
+#            country:
+#              route: country
+#            currency:
+#              route: currency
+#              divider: yes
+#            templates:
+#              route: template
+#            templates by country:
+#              route: template_country
+#
+#        users:
+#          credentials: [admin]
+#          dropdown:
+#            users:
+#              route: sf_guard_user
+#            groups:
+#              route: sf_guard_group
+#            permissions:
+#              route: sf_guard_permission
+#
+#        tools:
+#          dropdown:
+#            csv uploads history:
+#              route: site_login_file
+#    footer:
+#      copyright:          "Tito Miguel Costa &copy; <?php echo date("Y") ?>"
