@@ -7,8 +7,8 @@
                 <span class="icon-bar"></span>
             </a>
 
-            <div class="admin-logo-square"></div>
             <a class="brand" href="<?php echo url_for("@homepage") ?>"><?php echo sfConfig::get('app_tmcTwitterBootstrapPlugin_dashboard_name', 'Administration') ?></a>
+            <?php if ($sf_user->isAuthenticated()): ?>
             <div class="nav-collapse">
                 <ul class="nav">
                     <?php foreach ($menus as $k => $menu): ?>
@@ -65,6 +65,7 @@
                 </ul>
                 <p class="navbar-text pull-right"><?php echo __('Logged in as', null, 'tmcTwitterBootstrapPlugin') ?> <a href="<?php echo url_for(sfConfig::get('app_tmcTwitterBootstrapPlugin_profile_route', '@homepage?username=').$sf_user->getGuardUser()->getUsername()) ?>"><?php echo $sf_user->getGuardUser() ?></a> | <a href="<?php echo url_for('@sf_guard_signout') ?>"><?php echo __('Logout', null, 'tmcTwitterBootstrapPlugin') ?></a></p>
             </div>
+            <?php endif ?>
         </div>
     </div>
 </div>

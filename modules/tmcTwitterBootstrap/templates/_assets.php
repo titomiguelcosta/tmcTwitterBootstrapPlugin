@@ -1,6 +1,7 @@
 <?php use_helper('Url'); ?>
 <!-- stylesheets -->
 <?php use_stylesheet(public_path('tmcTwitterBootstrapPlugin/css/bootstrap.min.css'), 'first') ?>
+<?php use_stylesheet(public_path('tmcTwitterBootstrapPlugin/css/bootstrap-responsive.min.css'), 'first') ?>
 <?php use_stylesheet(public_path('tmcTwitterBootstrapPlugin/css/styles.css'), 'first') ?>
 
 <!-- javascripts -->
