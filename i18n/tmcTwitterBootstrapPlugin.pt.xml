@@ -174,36 +174,36 @@
         <target>Nenhuma versão encontrada</target>
       </trans-unit>
       <trans-unit id="43">
-        <source></source>
-        <target></target>
+        <source>Remember</source>
+        <target>Guardar sessão</target>
       </trans-unit>
       <trans-unit id="44">
-        <source></source>
-        <target></target>
+        <source>Username or E-Mail</source>
+        <target>Utilizador ou e-mail</target>
       </trans-unit>
       <trans-unit id="45">
-        <source></source>
-        <target></target>
+        <source>Password</source>
+        <target>Senha</target>
       </trans-unit>
       <trans-unit id="46">
-        <source></source>
-        <target></target>
+        <source>The username and/or password is invalid.</source>
+        <target>Autenticação inválida</target>
       </trans-unit>
       <trans-unit id="47">
-        <source></source>
-        <target></target>
+        <source>Signin</source>
+        <target>Autenticar-se</target>
       </trans-unit>
       <trans-unit id="48">
-        <source></source>
-        <target></target>
+        <source>Forgot your password?</source>
+        <target>Recuperar senha</target>
       </trans-unit>
       <trans-unit id="49">
-        <source></source>
-        <target></target>
+        <source>Want to register?</source>
+        <target>Registar-se</target>
       </trans-unit>
       <trans-unit id="50">
-        <source></source>
-        <target></target>
+        <source>Oops! The page you asked for is secure and you do not have proper credentials.</source>
+        <target>Lamentamos, mas não tem permissões suficientes para aceder à página solicitada.</target>
       </trans-unit>
       <trans-unit id="51">
         <source></source>

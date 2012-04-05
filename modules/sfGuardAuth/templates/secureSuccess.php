@@ -4,9 +4,7 @@
 <?php include_component('tmcTwitterBootstrap', 'header') ?>
 
 <div id="login" class="container">
-    <h1><?php echo __(sfConfig::get('app_sfGuardPlugin_header_title', 'Tito Miguel Costa'), null, 'tmcTwitterBootstrapPlugin') ?></h1>
     <div class="hero-unit">
-        <p>aaa</p>
         <div class="pull-left login-left">
             <?php include_partial('logo') ?>
         </div>

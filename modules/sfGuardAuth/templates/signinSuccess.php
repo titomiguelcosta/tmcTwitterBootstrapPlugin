@@ -1,10 +1,9 @@
 <?php use_helper('I18N') ?>
 
 <?php include_partial('tmcTwitterBootstrap/assets') ?>
-<?php include_component('tmcTwitterBootstrap', 'header') ?>
+<?php include_partial('header') ?>
 
 <div id="login" class="container">
-    <h1><?php echo __(sfConfig::get('app_sfGuardPlugin_header_title', 'Tito Miguel Costa'), null, 'tmcTwitterBootstrapPlugin') ?></h1>
     <div class="hero-unit">
         <div class="pull-left login-left">
             <?php include_partial('logo') ?>
