@@ -10,6 +10,15 @@ Features
 * a sfGuardAuth module to replace the default layout of the sfDoctrineGuardPlugin
 * generate admin with show view, option to set the max results in list view
 
+Instalation
+-----------
+
+Clone this project into plugins folder of your symfony project and enable it in the config/ProjectConfiguration.class.php file.
+
+Copy the sfGuardAuth to the modules of your backend application if you want to replace the sfDoctrineGuardPlugin default theme.
+
+Generate a new administration module with the option --theme=tmcTwitterBootstrap
+
 Using
 -----
 
