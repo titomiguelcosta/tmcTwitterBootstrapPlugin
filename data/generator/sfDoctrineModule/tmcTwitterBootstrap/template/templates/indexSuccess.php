@@ -2,7 +2,9 @@
 [?php include_partial('<?php echo $this->getModuleName() ?>/assets') ?]
 [?php include_partial('<?php echo $this->getModuleName() ?>/header') ?]
 
+<?php if ($this->configuration->hasFilterForm()): ?>
 [?php include_partial('<?php echo $this->getModuleName() ?>/filters', array('form' => $filters, 'configuration' => $configuration)) ?]
+<?php endif ?>
 
 <div class="container-fluid">
     <div class="row-fluid">
