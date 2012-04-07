@@ -206,8 +206,8 @@
         <target>Lamentamos, mas não tem permissões suficientes para aceder à página solicitada.</target>
       </trans-unit>
       <trans-unit id="51">
-        <source></source>
-        <target></target>
+        <source>Logged in as</source>
+        <target>Identificado como</target>
       </trans-unit>
       <trans-unit id="52">
         <source></source>
