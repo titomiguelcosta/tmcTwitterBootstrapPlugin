@@ -1,5 +1,5 @@
 [?php if ('NONE' != $fieldset): ?]
-    <h2><i class="icon-chevron-right"></i> [?php echo __($fieldset, array(), '<?php echo $this->getI18nCatalogue() ?>') ?]</h2>
+    <h2>[?php echo __($fieldset, array(), '<?php echo $this->getI18nCatalogue() ?>') ?]</h2>
 [?php endif; ?]
 <fieldset id="sf_fieldset_[?php echo preg_replace('/[^a-z0-9_]/', '_', strtolower($fieldset)) ?]">
     [?php foreach ($fields as $name => $field): ?]
