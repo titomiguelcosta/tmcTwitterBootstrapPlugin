@@ -23,8 +23,8 @@
     $this->pager = $this->getPager();
     $this->sort = $this->getSort();
 
-    if ($this->getUser()->getAttribute('<?php echo $this->getModuleName() ?>.filters', false, 'admin_module') && $this->getUser()->getAttribute('<?php echo $this->getModuleName() ?>.filters', false, 'admin_module')->count() > 0 ))
+    if (count($this->getUser()->getAttribute('<?php echo $this->getModuleName() ?>.filters', array(), 'admin_module')) > 0)
     {
-        $this->setUser()->setFlash('alert', 'There are active filters, not all results may be shown.');
+        $this->getUser()->setFlash('notice', 'There are active filters, not all results may be shown.');
     }
   }
