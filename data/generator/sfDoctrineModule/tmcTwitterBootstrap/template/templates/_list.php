@@ -25,18 +25,19 @@
           <th colspan="<?php echo count($this->configuration->getValue('list.display')) + ($this->configuration->getValue('list.object_actions') ? 1 : 0) + ($this->configuration->getValue('list.batch_actions') ? 1 : 0) ?>">
             [?php if ($pager->haveToPaginate()): ?]
             <div style="position: relative; width: auto; float:right">[?php include_partial('<?php echo $this->getModuleName() ?>/pagination', array('pager' => $pager)) ?]</div>
+            [?php slot('pagination_extra') ?]
+              [?php echo __('(page %%page%%/%%nb_pages%%)', array('%%page%%' => $pager->getPage(), '%%nb_pages%%' => $pager->getLastPage()), 'tmcTwitterBootstrapPlugin') ?]
+            [?php end_slot() ?]
             [?php endif; ?]
             <div style="float: left;font-weight: bold;line-height: 34px;margin-left: 10px;position: relative;width: auto;">
                 [?php echo format_number_choice('[0] no result|[1] 1 result|(1,+Inf] %1% results', array('%1%' => $pager->getNbResults()), $pager->getNbResults(), 'tmcTwitterBootstrapPlugin') ?]
-                [?php if ($pager->haveToPaginate()): ?]
-                  [?php echo __('(page %%page%%/%%nb_pages%%)', array('%%page%%' => $pager->getPage(), '%%nb_pages%%' => $pager->getLastPage()), 'tmcTwitterBootstrapPlugin') ?]
-                [?php endif; ?]
+                [?php include_slot('pagination_extra') ?]
             </div>
           </th>
         </tr>
       </tfoot>
       <tbody>
-        [?php foreach ($pager->getResults() as $i => $<?php echo $this->getSingularName() ?>): $odd = fmod(++$i, 2) ? 'odd' : 'even' ?]
+        [?php foreach ($results as $i => $<?php echo $this->getSingularName() ?>): $odd = fmod(++$i, 2) ? 'odd' : 'even' ?]
           <tr class="sf_admin_row [?php echo $odd ?]" rel="[?php echo $<?php echo $this->getSingularName() ?>->getId() ?]">
             <?php if ($this->configuration->getValue('list.batch_actions')): ?>
                 [?php include_partial('<?php echo $this->getModuleName() ?>/list_td_batch_actions', array('<?php echo $this->getSingularName() ?>' => $<?php echo $this->getSingularName() ?>, 'helper' => $helper)) ?]
