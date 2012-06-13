@@ -8,7 +8,9 @@ all:
     bootstrap_js_path:           /tmcTwitterBootstrapPlugin/js/bootstrap.min.js
     admin_js_path:               /tmcTwitterBootstrapPlugin/js/global.js
 
+#    # The route/URI to use for the nav bar's "brand" link
 #    profile_route: @homepage?username=
+#    # The link next for the nav bar's "brand" link
 #    dashboard_name: Administration
 #    header:
 #      menu:
